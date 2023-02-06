@@ -20,6 +20,8 @@ DEBUG = os.environ.get('DEBUG')
 
 ALLOWED_HOSTS = []
 
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
 
 # Application definition
 
@@ -33,7 +35,10 @@ INSTALLED_APPS = [
 
     'core',
     'tailwind',
-    'theme'
+    'theme',
+
+    'newsletters',
+    'dashboard'
 ]
 
 TAILWIND_APP_NAME = 'theme'
