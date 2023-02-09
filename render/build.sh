@@ -3,7 +3,7 @@
 # Exit on error
 set -o errexit
 
-py -V
+python -V
 
 pip3 install -r requirements.txt
 
