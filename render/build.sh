@@ -3,9 +3,7 @@
 # Exit on error
 set -o errexit
 
-pip3 install Django==4.1.6
-
-#pip install -r requirements.txt
+pip install -r requirements.txt
 
 python manage.py collectstatic --no-input
 
