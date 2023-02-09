@@ -9,6 +9,6 @@ python manage.py collectstatic --no-input
 
 python manage.py migrate
 
-python manage.py tailwind build
-
 npm install rimraf
+
+python manage.py tailwind build
